@@ -31,7 +31,7 @@ spec:
       - name: lima
         image: hashicorp/http-echo
         args:
-        - "-tetx=lima v1"
+        - "-text=lima v1"
         ports:
         - containerPort: 5678
         resources:
